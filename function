@@ -1,0 +1,12 @@
+global $current_user;
+
+$user_role = array_shift($current_user->roles);
+
+echo  $user_role;
+
+if( $user_role == 'subscriber'){
+
+   echo"its the Subscriber Here" ; 
+   echo "<h1>". "Here is the Heasdinn g=for subscriber " . "</h1>" ; 
+
+}
